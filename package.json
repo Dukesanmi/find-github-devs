@@ -1,0 +1,43 @@
+{
+  "name": "github-dev-profile",
+  "version": "1.0.0",
+  "description": "Find github developers profile",
+  "main": "src/srcript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "serve": "webpack-dev-server --mode=development",
+    "deploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dukesanmi/github-profile-page-recreate.git"
+  },
+  "keywords": [
+    "github",
+    "graphql-api"
+  ],
+  "author": "Dukesanmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dukesanmi/github-profile-page-recreate/issues"
+  },
+  "homepage": "https://github.com/Dukesanmi/github-profile-page-recreate#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "dotenv-webpack": "^7.0.3",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^12.0.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.38.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.8"
+  }
+}
